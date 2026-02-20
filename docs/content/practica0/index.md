@@ -1,3 +1,9 @@
++++
+date = '2026-02-19T22:06:10-08:00'
+draft = false
+title = 'Practica0: Manejo de Repositorios'
++++
+
 # Markdown
 
 Es un lenguaje de marcado ligero que permite dar formato a texto plano de manera sencilla y legible. 
@@ -150,6 +156,14 @@ Se trabaja de manera local con Git para guardar cambios y, posteriormente, se su
 # Hugo
 Es un generador de sitios web estáticos muy rápido. Permite crear páginas web a partir de archivos Markdown.
 
+### Crear un sitio estático Hugo
+
+1. Instalar Hugo y ejecutar -> __hugo new site mi-sitio__
+1. Añadir un tema: Descargar un tema en la carpeta __/themes__
+1. Crear contenido: __hugo new posts/mi-primer-post.md__
+1. Probar localmente: __hugo server -D__ 
+2. Abrir el https en el navegador
+
 # GitHub Actions
 
 Es un sistema de automatización que permite ejecutar procesos automáticos, como:
@@ -161,3 +175,8 @@ Es un sistema de automatización que permite ejecutar procesos automáticos, com
 * Publicar sitios web automáticamente
 
 Se usa para automatizar el despliegue de un sitio Hugo en GitHub Pages.
+
+#### Enlace de portafolio en Github
+
+
+#### Enlace de página estática en Github Pages
