@@ -190,7 +190,8 @@ Se usa para automatizar el despliegue de un sitio Hugo en GitHub Pages.
 
 ---
 #### Enlace de portafolio en Github
-https://github.com/Troy2404portafolio_paradigmas.git 
+https://github.com/Troy2404/portafolio_paradigmas.git
 #### Enlace de página estática en Github Pages
 https://troy2404.github.io/portafolio_paradigmas/
+
 
