@@ -185,7 +185,7 @@ Se usa para automatizar el despliegue de un sitio Hugo en GitHub Pages.
 6. Crear archivo de automatización (`hugo.yaml`) y copiar y pegar toda la configuración necesaria
 7. Agregar archivos, guardar y subir cambios: `git add .` -> `git commit -m "Mensaje de commit"` -> `git push`
 8. Activar Github Pages en la configuración de tu repositorio en Github
-9. Esperar a que se ejecute la acción el el apartado "Actions", después se publicará automaticamente en el link dado.
+9. Esperar a que se ejecute la acción en el apartado "Actions", después se publicará automaticamente en el link dado.
 
 
 ---
