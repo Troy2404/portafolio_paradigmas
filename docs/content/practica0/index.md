@@ -1,7 +1,7 @@
 +++
 date = '2026-02-19T22:06:10-08:00'
 draft = false
-title = 'Practica0: Manejo de Repositorios'
+title = 'Práctica 0: Manejo de Repositorios'
 +++
 
 # Markdown
@@ -57,7 +57,7 @@ Esto es un texto en __negritas__  <!-- doble guion bajo -->
 
 __Esto es un texto en negritas__
 
-Este `es un tecto que puede ser código` este es un texto 
+Este `es un texto que puede ser código` este es un texto 
 ~~tachado~~
 ~~texto tachado~~
 
@@ -141,28 +141,28 @@ Se trabaja de manera local con Git para guardar cambios y, posteriormente, se su
 
 ## Comandos esenciales de Git
 
-* __git init__ → Inicializa un repositorio.
+* `git init` → Inicializa un repositorio.
 
-* __git status__ → Muestra el estado de los archivos.
+* `git status` → Muestra el estado de los archivos.
 
-* __git add .__ → Agrega archivos al área de preparación.
+* `git add .` → Agrega archivos al área de preparación.
 
-* __git commit__ -m "mensaje" → Guarda los cambios.
+* `git commit -m "mensaje"` → Guarda los cambios.
 
-* __git push__ → Sube los cambios a GitHub.
+* `git push` → Sube los cambios a GitHub.
 
-* __git pull__ → Descarga cambios desde GitHub.
+* `git pull` → Descarga cambios desde GitHub.
 
 # Hugo
 Es un generador de sitios web estáticos muy rápido. Permite crear páginas web a partir de archivos Markdown.
 
 ### Crear un sitio estático Hugo
 
-1. Instalar Hugo y ejecutar -> __hugo new site mi-sitio__
-1. Añadir un tema: Descargar un tema en la carpeta __/themes__
-1. Crear contenido: __hugo new posts/mi-primer-post.md__
-1. Probar localmente: __hugo server -D__ 
-2. Abrir el https en el navegador
+1. Instalar Hugo y ejecutar -> `hugo new site mi-sitio`
+1. Añadir un tema: Descargar un tema en la carpeta `/themes`
+1. Crear contenido: `hugo new posts/mi-primer-post.md`
+1. Probar localmente: `hugo server -D`
+2. Abrir el https de la página estática
 
 # GitHub Actions
 
@@ -176,6 +176,19 @@ Es un sistema de automatización que permite ejecutar procesos automáticos, com
 
 Se usa para automatizar el despliegue de un sitio Hugo en GitHub Pages.
 
+### Cómo configurar Github Actions y publicar el sitio en Github Pages
+1. Crear repositorio de Github
+2. Iniciar git en el proyecto local: `git init`
+3. Conectar con Github: `git remote add origin https://github.com/usuario/usuario.github.io.git`
+4. Subir archivo a Github: `git push -u origin main`
+5. Crear carpeta de workflows: `mkdir -p .github/workflows`
+6. Crear archivo de automatización (`hugo.yaml`) y copiar y pegar toda la configuración necesaria
+7. Agregar archivos, guardar y subir cambios: `git add .` -> `git commit -m "Mensaje de commit"` -> `git push`
+8. Activar Github Pages en la configuración de tu repositorio en Github
+9. Esperar a que se ejecute la acción el el apartado "Actions", después se publicará automaticamente en el link dado.
+
+
+---
 #### Enlace de portafolio en Github
 https://github.com/Troy2404portafolio_paradigmas.git 
 #### Enlace de página estática en Github Pages
