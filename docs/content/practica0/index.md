@@ -187,6 +187,13 @@ Se usa para automatizar el despliegue de un sitio Hugo en GitHub Pages.
 8. Activar Github Pages en la configuración de tu repositorio en Github
 9. Esperar a que se ejecute la acción en el apartado "Actions", después se publicará automaticamente en el link dado.
 
+## Conclusión
+
+Como estudiante de Ingeniería en Software, aprender a usar Markdown, Git, GitHub, Hugo y GitHub Actions me pareció muy útil e interesante. Estas herramientas ayudan a organizar mejor el trabajo, llevar control de los cambios y facilitar el trabajo y su documentación.
+
+Me imagino que antes era muy diferente la forma en que las personas documentaban y desarrollaban sus proyectos, y que no existía una manera tan unificada y ordenada como ahora. Con herramientas como Git y GitHub, todo es más claro, organizado y colaborativo, lo que hace que el desarrollo de software sea más eficiente.
+
+También me gustó aprender cómo se pueden crear y publicar páginas web con Hugo de forma automática. Aunque solo aprendí lo básico, me gustó al fin poder manejar estas herramientas tan famosas y seguiré aprendiendo.
 
 ---
 #### Enlace de portafolio en Github
