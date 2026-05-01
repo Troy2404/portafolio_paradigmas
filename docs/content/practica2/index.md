@@ -353,3 +353,8 @@ Como área de mejora, se identificó que el uso de un estado global en memoria e
 6. Django Software Foundation. (2024). *Django documentation: The template layer*. https://docs.djangoproject.com/en/5.0/topics/templates/
 7. Lutz, M. (2013). *Learning Python* (5th ed.). O'Reilly Media.
 
+#### Enlace de mi portafolio en Github
+https://github.com/Troy2404/portafolio_paradigmas.git
+#### Enlace de mi página estática en Github Pages
+https://troy2404.github.io/portafolio_paradigmas/
+
