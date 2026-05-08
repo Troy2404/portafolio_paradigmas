@@ -6,10 +6,6 @@ title = 'Practica3: El paradigma funcional'
 
 # Práctica 3 — Aplicación TODO en Haskell
 
-> **Repositorio de referencia:** [steadylearner/Haskell — examples/blog/todo](https://github.com/steadylearner/Haskell/tree/main/examples/blog/todo)  
-> **Blog de referencia:** [How to use Haskell to build a todo app with Stack](https://dev.to/steadylearner/how-to-use-stack-to-build-a-haskell-app-499j)
-
----
 
 ## ¿Qué es Haskell?
 
